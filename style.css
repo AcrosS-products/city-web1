@@ -1,0 +1,87 @@
+body {
+    background-image: url(bg_project.jpg);
+}
+
+.heading {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: chocolate;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-display: block;
+}
+
+#note {
+    text-align: right;
+    color: darkslategrey;
+    margin-right: 200px;
+    font-size: 30px;
+    font-display: inline;
+    font-family: cursive;
+    transition: transform .2s;
+    text-decoration: underline blue ;
+    animation: rotate 2s 2 ease-in-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: deg(90);
+    }
+    100% {
+        transform: deg(360);
+    }
+}
+
+.top-nav {
+    margin: 0;
+    display: flex;
+    border: dotted;
+    background-color: rgb(219, 164, 62);
+}
+
+.horizontal-list{
+    display: flex;
+}
+
+.option {
+    transition: transform .2s;
+    text-align: center;
+    text-decoration: black;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 23px;
+}
+
+.option:hover {
+    background-color: rgb(174, 151, 34);
+    transform: scale(1.7);
+}
+
+.legend {
+    color: red;
+    font-size: 30px;
+}
+
+.legend:hover {
+    background-color: aquamarine;
+    transform: scale(1.8);
+}
+
+.text {
+    font-size: 30px;
+    color: rgb(181, 30, 30);
+    text-decoration: underline;
+}
+
+.watch {
+    font-size: 24px;
+    font-weight: 400;
+    transition: transform .2s;
+}
+
+.watch:hover {
+    background-color: rgb(254, 254, 255);
+    transform: scale3d(2);
+}
